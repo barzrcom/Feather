@@ -64,7 +64,8 @@ LightmapSettings:
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -3911,12 +3912,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1825485597}
-  - component: {fileID: 1825485603}
-  - component: {fileID: 1825485602}
-  - component: {fileID: 1825485601}
-  - component: {fileID: 1825485600}
-  - component: {fileID: 1825485599}
   - component: {fileID: 1825485598}
+  - component: {fileID: 1825485603}
+  - component: {fileID: 1825485600}
+  - component: {fileID: 1825485602}
+  - component: {fileID: 1825485599}
+  - component: {fileID: 1825485601}
   m_Layer: 0
   m_Name: GunBarrelEnd
   m_TagString: Untagged
@@ -4056,7 +4057,7 @@ Light:
   m_Enabled: 0
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 0.99878937, b: 0.11792451, a: 1}
+  m_Color: {r: 0.9900533, g: 1, b: 0.07075471, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -4129,8 +4130,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.05014801
-        value: 0.053333282
+        time: 0.04988098
+        value: 0.047369003
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -8792,7 +8793,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: b75a561f374f89247a62336b50288d40, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: b75a561f374f89247a62336b50288d40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
