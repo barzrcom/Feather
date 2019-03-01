@@ -9,7 +9,7 @@
 ![Aa]ssets/**/*.meta
 
 # Ignore Standart Assets Dir
-Assets/Standard\ Assets/** Assets/Standard\ Assets/**/*
+# Assets/Standard\ Assets/** Assets/Standard\ Assets/**/*
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
